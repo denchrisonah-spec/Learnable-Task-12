@@ -1,10 +1,10 @@
-# 🔐 Role-Based Access Control (RBAC) Dashboard
+#  Role-Based Access Control (RBAC) Dashboard
 
 A secure, responsive, and aesthetically premium **Role-Based Access Control (RBAC) Dashboard** application built with React 19, TypeScript, Vite, and React Router DOM v7. This project demonstrates dynamic front-end permission handling, custom context-driven authentication, and protected routing.
 
 ---
 
-## 🌟 Features
+##  Features
 
 ### 1. Multi-Role Simulated Authentication
 * **Seamless Login**: Users can log in using any username and select one of three preconfigured system roles.
@@ -12,9 +12,9 @@ A secure, responsive, and aesthetically premium **Role-Based Access Control (RBA
 
 ### 2. Role-Based Dynamic Dashboards
 The home workspace dynamically adapts its layout, widgets, and functional panels according to the logged-in user's role:
-* **👑 Admin Workspace**: Access to critical administrator actions such as user management, system audit logs, and global preferences.
-* **✍️ Editor Workspace**: A feature-rich drafting environment allowing editors to write, draft, and publish new content.
-* **👁️ Viewer Workspace**: A clean, read-only analytics grid showing detailed status records (e.g., approved/pending/rejected sales and growth reports).
+* ** Admin Workspace**: Access to critical administrator actions such as user management, system audit logs, and global preferences.
+* ** Editor Workspace**: A feature-rich drafting environment allowing editors to write, draft, and publish new content.
+* ** Viewer Workspace**: A clean, read-only analytics grid showing detailed status records (e.g., approved/pending/rejected sales and growth reports).
 
 ### 3. Route Guarding & Page Protection
 * **General Protection (`ProtectedRoute`)**: Restricts access to standard personal workspaces (like `/dashboard` and `/profile`) to logged-in users only. Unauthenticated requests are gracefully redirected to the `/login` portal.
@@ -22,7 +22,7 @@ The home workspace dynamically adapts its layout, widgets, and functional panels
 
 ---
 
-## 📊 Roles & Permissions Matrix
+##  Roles & Permissions Matrix
 
 The application strictly implements the following permission control framework:
 
@@ -76,42 +76,3 @@ learnable-task-12/
 
 ---
 
-## 🚀 Getting Started
-
-Follow these instructions to run the application locally on your computer.
-
-### Prerequisites
-
-Make sure you have [Node.js](https://nodejs.org/) installed (v18 or above recommended).
-
-### Installation & Development
-
-1. **Navigate to the project folder**:
-   ```bash
-   cd "Learnable Task 12"
-   ```
-
-2. **Install all project dependencies**:
-   ```bash
-   npm install
-   ```
-
-3. **Start the development server**:
-   ```bash
-   npm run dev
-   ```
-
-4. **Open your browser**: 
-   Click on the local address printed in your terminal (usually `http://localhost:5173`) to view and interact with the application.
-
----
-
-## 📦 Production Build
-
-To compile the application into static files ready for optimized production deployment:
-
-```bash
-npm run build
-```
-
-This compiles TypeScript, bundles files using Vite, and outputs all build artifacts directly into the `dist/` directory.
