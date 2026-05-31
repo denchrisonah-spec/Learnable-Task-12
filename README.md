@@ -1,6 +1,4 @@
-#  Role-Based Access Control (RBAC) Dashboard
-
-A secure, responsive, and aesthetically premium **Role-Based Access Control (RBAC) Dashboard** application built with React 19, TypeScript, Vite, and React Router DOM v7. This project demonstrates dynamic front-end permission handling, custom context-driven authentication, and protected routing.
+A secure, responsive, and aesthetically premium **Role-Based Access Control Dashboard** application built with React 19, TypeScript, Vite, and React Router DOM v7. This project demonstrates dynamic front-end permission handling, custom context-driven authentication, and protected routing.
 
 ---
 
@@ -34,7 +32,7 @@ The application strictly implements the following permission control framework:
 
 ---
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 * **Framework**: [React 19](https://react.dev/)
 * **Build Tool**: [Vite 8](https://vite.dev/)
@@ -44,7 +42,7 @@ The application strictly implements the following permission control framework:
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```text
 learnable-task-12/
