@@ -20,18 +20,6 @@ The home workspace dynamically adapts its layout, widgets, and functional panels
 
 ---
 
-##  Roles & Permissions Matrix
-
-The application strictly implements the following permission control framework:
-
-| Role | Access Level | Permitted Pages | Dashboard Actions |
-| :--- | :--- | :--- | :--- |
-| **Admin** | Full Access | `/dashboard`, `/profile`, `/settings` | Manage Users, View System Logs, Change Global Preferences |
-| **Editor** | Read & Write | `/dashboard`, `/profile` | Draft and Publish Content |
-| **Viewer** | Read Only | `/dashboard`, `/profile` | View Reports Grid & Approval Statuses |
-
----
-
 ##  Technology Stack
 
 * **Framework**: [React 19](https://react.dev/)
